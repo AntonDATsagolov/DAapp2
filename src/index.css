@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+* { -webkit-tap-highlight-color: transparent; }
+button, a { -webkit-user-select: none; user-select: none; }
+
+.leaflet-control-zoom { border: none !important; box-shadow: 0 2px 6px rgba(0,0,0,0.3) !important; }
+.leaflet-control-zoom a { background: #1e293b !important; color: white !important; border: none !important; width: 30px !important; height: 30px !important; line-height: 30px !important; }
+.leaflet-popup-content-wrapper { border-radius: 12px !important; background: #1e293b !important; color: white !important; }
+.leaflet-popup-tip { background: #1e293b !important; }
